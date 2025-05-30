@@ -351,7 +351,7 @@ const App: React.FC = () => {
             }}
             onClick={(e) => {
               e.stopPropagation();
-              handleNodeClick(e, node.id);
+              handleNodeClick(node.id);
             }}
           >
             {isEditing ? (
