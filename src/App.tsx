@@ -204,7 +204,7 @@ const App: React.FC = () => {
   };
 
   const handleNodeClick = (
-    e: ReactMouseEvent<HTMLDivElement>,
+    // e: ReactMouseEvent<HTMLDivElement>,
     nodeId: string
   ) => {
     if (draggingNode) return;
