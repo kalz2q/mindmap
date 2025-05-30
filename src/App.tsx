@@ -1,13 +1,11 @@
 //無料マインドマップ 簡易版放射思考Webアプリ 線なし 色なし 画像なし 生成AI作成
 //ロードとセーブあり
 
-import React, {
-  useState,
-  useRef,
+import { useState, useEffect, useRef } from "react";
+import type {
   MouseEvent as ReactMouseEvent,
   KeyboardEvent,
   ChangeEvent,
-  useEffect,
 } from "react";
 
 // ノードのデータ構造を定義
